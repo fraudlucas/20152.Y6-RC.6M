@@ -13,19 +13,33 @@ Todas as dúvidas serão sanadas por mim ou pelo monitor da disciplina Marcelo M
 ###Lista de Alunos###
 ***
 aps - Anderson Pereira da Silva
+
 alpf - Arthur Leite Padilha Filho
+
 cabg - Cesar Augusto Barreto Gonçalves
+
 dcl - Debora Carvalho Leite
+
 djtm - DIEGO JORDAO TENORIO MARANHAO
+
 eado - Edlas do Amor Divino Oliveira
+
 jsm - Jonathan Soares de Melo
+
 jorv - José Orlando Ramos Vilar
+
 mlaaf - Marcus Lucas Abreu de Araujo Falcão
+
 rhlr - RAFAEL HENRIQUE LOPES RIBEIRO
+
 rls - Rhaissa Luiza dos Santos
+
 srgfs - Saulo Ricardo Gonçalves Fernandes da Silva
+
 sma - Sérgio Melo Alencar
+
 tgm - Tamires Guedes de Melo
+
 ylt - YUJI LIMA TASHIRO
 
 ***
