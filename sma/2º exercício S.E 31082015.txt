@@ -1,0 +1,20 @@
+Exercício 02 Sistemas Embarcados 31/08/2015.
+ 
+1- O que são Sistemas Embarcados?
+R=> São Sistemas computacionais que estão inseridos em maquinas ou em sistemas maiores.
+
+2- O que é um Sistema de Tempo Real?
+R=> É um Sistema que têm aspectos temporais na especificação, submetidos a requisitos de natureza temporal,
+resultados devem estar corretos lógica e tmporalmente, requisitos definidos pelo ambiente físico.
+
+3- O que são Sistemas Reativos?
+R=> É um Sistema que reagi continuamente a ocorrência de eventos externos.
+
+4- Você diria que todo S.E. é também um Sistema de Tempo Real? E é um Sistema Reativo?
+R=> todo S.E é um S.T.R mais nem todo S.T.R é um S.E e ambos são S.R!
+
+5- É fundamental a execução de tarefas em paralelo em um S.E.? Porquê?
+R=> Sim, pois complementam ações que auxiliam na concretização do resultado final esperado. 
+
+6- Como você compara o mercado de S.E. em relação ao de desktops?
+R=> Um mercado de possibilitadas altamente diversificado.
