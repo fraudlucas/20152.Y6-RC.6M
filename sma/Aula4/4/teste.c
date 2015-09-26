@@ -12,7 +12,7 @@
 void main()
 {
    while (1) {
-      if (A >=7){
+      if (A >7){
          B0=1;
          B1=0;
       }
