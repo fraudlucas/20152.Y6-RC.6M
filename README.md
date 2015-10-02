@@ -18,19 +18,13 @@ alpf - Arthur Leite Padilha Filho
 
 cabg - Cesar Augusto Barreto Gonçalves
 
-dcl - Debora Carvalho Leite
-
 djtm - DIEGO JORDAO TENORIO MARANHAO
 
 eado - Edlas do Amor Divino Oliveira
 
 jsm - Jonathan Soares de Melo
 
-jorv - José Orlando Ramos Vilar
-
 mlaaf - Marcus Lucas Abreu de Araujo Falcão
-
-rhlr - RAFAEL HENRIQUE LOPES RIBEIRO
 
 rls - Rhaissa Luiza dos Santos
 
@@ -49,21 +43,16 @@ Grupo 1
 * aps
 * alpf
 * cabg
-* dcl
 * djtm
  
 Grupo 2 
 * eado
 * jsm
-* jorv
 * mlaaf
-* rhlr
+* rls
  
 Grupo 3
-* rls
 * srgfs
 * sma
 * tgm
 * ylt
-
-
