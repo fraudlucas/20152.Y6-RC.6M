@@ -1,0 +1,18 @@
+b00000000
+wait 1 s
+assert 0x00
+b00000010
+wait 1 s
+assert 0x01
+b00000000
+wait 1 s
+assert 0x00
+b00000001
+wait 1 s
+assert 0x01
+b00000011
+wait 1 s
+assert 0x00
+b00000010
+wait 1 s
+assert 0x00
