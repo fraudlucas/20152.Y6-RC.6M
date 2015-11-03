@@ -7,6 +7,7 @@ A1 - sensor atrás da porta.
 #Outputs:
 B0 - sensor que abre a porta;
 
+
 ***
 
 if(A1 && !A0 && !B0) { // Se a porta é fechada (B0 = 0) e uma pessoa se aproxima atrás (A1 = 1) a porta não se abre (B0 continua no estado 0).
