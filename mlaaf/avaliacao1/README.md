@@ -1,3 +1,3 @@
 Dupla:
 alpf - Arthur Leite Padilha Filho
-mlaaf - Marcus Lucas Abreu de Araujo Falc„o
+mlaaf - Marcus Lucas Abreu de Araujo Falc√£o
