@@ -1,0 +1,9 @@
+b11001100
+wait 1 s
+assert b01000001
+wait 1 s
+b00000100
+wait 1 s
+assert b00100000
+wait 1 s
+generatetd
