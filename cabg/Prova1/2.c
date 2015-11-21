@@ -1,24 +1,29 @@
+/*
+César Augusto B. Gonçalves
+1ª Avaliação Q2
+*/
+
 #include "rims.h"
 
 
 
 void main()
-{ unsigned char dose = 0;//vÃ¡riavel que armazena quantidade de dose do cliente
+{ unsigned char dose = 0;//váriavel que armazena quantidade de dose do cliente
    unsigned char edose = 250;//estoque
    while (1) { 
-      if(A0 == 1 && edose > 0){// condiÃ§Ã£o de pedido e estoque disponÃ­vel
+      if(A0 == 1 && edose > 0){// condição de pedido e estoque disponivel
           
-          edose = edose -1;//estoque Ã© decrementado quando cliente pega uma dose
+          edose = edose -1;//estoque é decrementado quando cliente pega uma dose
           dose = dose +1; //
-          while(A0 == 1){// fica atÃ© quando acabar o atendimento
+          while(A0 == 1){// fica até quando acabar o atendimento
           B0 = 1;//Led de atendimento
           }
    }
-   if(A0 == 1  && edose <=0){//quando o cliente pede a dose e nÃ£o tem no estoque
+   if(A0 == 1  && edose <=0){//quando o cliente pede a dose e não tem no estoque
        B1 = 1;//led que avisa ao gerente para repor o estoque
        }
  
-	B0=0;//quando nÃ£o entra nas outras condiÃ§Ãµes
-	B1=0;//quando nÃ£o entra nas outras condiÃ§Ãµes
+	B0=0;//quando não entra nas outras condições
+	B1=0;//quando não entra nas outras condições
 }
 }

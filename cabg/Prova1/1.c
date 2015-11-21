@@ -1,4 +1,9 @@
- #include "rims.h"
+/*
+César Augusto B. Gonçalves
+1ª Avaliação Q1
+*/
+
+#include "rims.h"
  
 unsigned short ti=300;
 unsigned short tf;
