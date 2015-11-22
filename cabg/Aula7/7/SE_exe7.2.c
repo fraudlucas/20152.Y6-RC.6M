@@ -1,5 +1,5 @@
 /*
-César Augusto B. Gonçalves
+CÃ©sar Augusto B. GonÃ§alves
 
 Escreva e execute um programa no RIMS que inicializa B igual a A + 1;
 */

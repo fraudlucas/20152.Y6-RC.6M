@@ -1,11 +1,12 @@
-/*César Augusto B. Gonçalves
+/*CÃ©sar Augusto B. GonÃ§alves
 
 Um carro tem um sensor que inicializa A com o peso do passageiro 
-(se o passageiro pesar 59 kg, A7...A0 = 00111011). Isso é 
-importante pois alguns carros só acionam o airbag com peso mínimo. 
+(se o passageiro pesar 59 kg, A7...A0 = 00111011). Isso Ã© 
+importante pois alguns carros sÃ³ acionam o airbag com peso mÃ­nimo. 
 Escreva um programa no RIMS que habilita o sistema de airbag do 
 carro (B0=1) se o peso do passageiro for igual ou maior que 48 kg. 
-Também ligue uma luz “Airbag off” (B1=1) se peso > 2,5 kg mas peso < 48 kg.
+TambÃ©m ligue uma luz â€œAirbag offâ€ (B1=1) se peso > 2,5 kg mas
+peso < 48 kg.
 */
 
 #include "rims.h"
