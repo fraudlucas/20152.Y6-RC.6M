@@ -1,4 +1,4 @@
-/*CÃ©sar Augusto B. GonÃ§alves
+/*César Augusto B. Gonçalves
  Escreva um programa no RIMS que inicializa B=300. O que acontece?
  E porque ?
 */

@@ -1,0 +1,21 @@
+b00000000
+wait 1 s
+3
+wait 1 s
+assert 1
+assert b00000001
+assert 0x01
+wait 0.5 s
+b00000010
+wait 3000 ms
+b11111101
+wait 200 ms
+b00010101
+wait 500 ms
+b11000011
+wait 2 s
+b01000010
+wait 1 s
+0xFF
+wait 1 s
+generatetd
