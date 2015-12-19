@@ -31,6 +31,19 @@ Considerando-se que a catraca possui contagem até 15, enviando tais números pa
 
 ***
 
+###Máquina de estado (avaliacao2.sm)###
+
+1. O estado inicial "espera" muda para "entrar" quando A2 é igual 1 (indicando que está entre 6:30 e 7:55);
+2. No estado "entrar" B6 recebe 0 (valor padrão, caso o aluno não seja permitido a entrar). B4 recebe a negação de A4 e B5 recebe A4, ou seja, caso o número máximo de alunos tenha sido atingido, B5 acende, senão B4 acende;
+3. Caso o crachá do aluno não tenha passado pela catraca já e a escola não tenha atingido o limite máximo de alunos, então passa para o estado "entPermitida", o qual faz com que o estado de B6 passe a ser 1;
+4. O aluno ao rodar a catraca (A0 = 0) o estado volta a ser "entrar";
+5. Quando horário de estrada termina (A2 = 0) o estado volta a ser  "espera";
+6. Um aluno ao se identificar para sair da escola (passando o crachá), caso tenha se passado mais de uma hora em que o aluno esteja na escola (A3 = 1), então passa para o estado "sair";
+7. Estando mais de uma hora o estado passa ser "saiPermitida" com B7 recebendo 1, indicando que o aluno pode sair;
+8. Ao rodar a catraca A1 se torna 0, voltando para o estado "sair" e logo após A3 se torna 0, voltando para o estado inicial de "espear".
+
+***
+
 ###Comparação entre código gerado pelo RIBS e o não gerado a partir de uma máquina de estado:###
 
 O código gerado pelo RIBS não permite uma ordenação de ações por tempo, já que o mesmo se utiliza de "switch&cases" e "IFs" para a transição de estados, utilizando "while" apenas para manter a reatividade do sistema e não para permitir tal ordenação por tempo. Portanto o código gerado pelo RIBS (avaliacao2_RIBS.c) torna-se maior e menos flexivel que o código feito manualmente (avaliacao2.c).
