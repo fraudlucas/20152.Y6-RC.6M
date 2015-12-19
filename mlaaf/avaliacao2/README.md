@@ -1,5 +1,5 @@
-##Marcus Lucas Abreu de Araujo Falcão
-Avaliação 2##
+##Marcus Lucas Abreu de Araujo Falcão##
+##Avaliação 2##
 
 ###Arquivos:###
 * avaliacao2.sm - Arquivo de máquina de estado do RIBS;
